@@ -8,7 +8,8 @@ WriteMakefile
           'VERSION_FROM' => 'lib/DBIx/Custom/Result.pm',
           'PREREQ_PM' => {
                            'Test::More' => 0,
-                           'Object::Simple' => '2.0702'
+                           'Object::Simple' => '2.0702',
+                           'DBI' => '1.605'
                          }
         )
 ;
